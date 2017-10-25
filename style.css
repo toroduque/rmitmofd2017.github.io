@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+
+body{
+  font-family: 'Reem Kufi', 'Helvetica', 'Arial', sans-serif;
+}
+
+header {
+  max-width: 20%;
+}
+
+header img {
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 25%;
+  z-index: 100;
+}
+
+.top-info li{
+  font-family: 'Reem Kufi', 'Helvetica', 'Arial', sans-serif;
+  float: right;
+  display: inline;
+  max-width: 25%;
+  margin-right: 7%;
+}
+
+.top-info li h3{
+  font-size: 1.4vw;
+  line-height: 1.3em;
+  text-transform: uppercase;
+}
+
+.top-info li:last-child{
+  margin-right: 10%;
+}
+
+.logos {
+  width: 100%;
+}
+
+.logos img {
+  max-width: 13%;
+  margin: auto;
+  padding: 1.2vw 0;
+  display: inline-block;
+}
+
+.video {
+  display: block;
+  position: relative;
+  padding-top: 10%;
+  margin: 0 auto;
+
+}
+
+.video iframe {
+  display: block;
+  margin: 0 auto;
+  z-index: -999;
+}
+
+.links {
+  position: fixed;
+  right: -150px;
+  top: 43%;
+  transform: rotate(-90deg);
+  display: inline-flex;
+}
+
+.links li{
+  display: inline;
+  float: left;
+  margin-right: 40px;;
+  line-height: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #3cbdc1;
+}
+
+.links a:hover {
+  color: #ff6666;
+}
+
+.links h3 {
+  font-size: 1em;
+}
+
+footer {
+  text-align: center;
+}
